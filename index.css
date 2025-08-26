@@ -55,9 +55,9 @@ nav h2 {
 /* Links styling */
 .navbar li a {
     text-decoration: none;
-    color: black;
     font-weight: bold;
     padding: 0 12px;
+    color: #323232;
     transition: all 0.3s ease;
 }
 
@@ -105,16 +105,22 @@ nav h2 {
 .projects {
   margin-top: 40px;
 }
+.projects a{
+    color: #323232;
+    font-weight: bold;
+    text-decoration: none;
+}
 
 .project-image {
-  display: none;
-  margin-top: 10px;
+    display: none;
+    margin-top: 10px;
 }
 
 .project-image img {
-  max-width: 300px;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    width: 70%;            
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
 
 
