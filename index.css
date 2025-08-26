@@ -102,6 +102,22 @@ nav h2 {
     border-radius: 10px;
 }
 
+.projects {
+  margin-top: 40px;
+}
+
+.project-image {
+  display: none;
+  margin-top: 10px;
+}
+
+.project-image img {
+  max-width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+
 .skills {
     padding: auto 0;
     margin-top: 30px;  
