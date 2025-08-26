@@ -44,15 +44,12 @@ nav h2 {
   margin: 0;
 }
 
-/* Navbar list styling */
 .navbar {
   list-style: none;
   display: flex;
   margin: 20px;
   padding: 0;
 }
-
-/* Links styling */
 .navbar li a {
     text-decoration: none;
     font-weight: bold;
@@ -61,7 +58,6 @@ nav h2 {
     transition: all 0.3s ease;
 }
 
-/* Hover effect */
 .navbar li a:hover {
   background-color: #555; 
   border-radius: 5px;
