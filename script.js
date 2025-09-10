@@ -8,7 +8,14 @@ document.querySelectorAll(".project-link").forEach(link => {
       imgDiv.innerHTML = "";
       imgDiv.style.display = "none";
     } else {
-      imgDiv.innerHTML = `<img src="${this.dataset.img}" alt="Project Preview">`;
+      const url = this.dataset.url || null;
+      let content = `<img src="${this.dataset.img}" alt="Project Preview">`;
+
+      if (url) {
+        content += `<br><a href="${url}" target="_blank" class="view-link">View Project</a>`;
+      }
+
+      imgDiv.innerHTML = content;
       imgDiv.style.display = "block";
     }
   });
